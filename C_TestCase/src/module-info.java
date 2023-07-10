@@ -6,4 +6,6 @@
  *
  */
 module C_TestCase {
+	requires junit;
+	requires org.junit.jupiter.api;
 }

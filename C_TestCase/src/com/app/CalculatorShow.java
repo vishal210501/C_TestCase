@@ -12,7 +12,10 @@ public class CalculatorShow {
 
 		char ch;
 		do {
+			System.out.println("....welcome to Calculator....");
+			System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
 			System.out.println("enter your choice");
+			
 			System.out.println(
 					"1.Addition\n2.SubStraction\n3.Multiplication\n4.Dividation\n5.Area_of_square\n6.Area_of_rectangle\n7.Area_of_triangle\n8.Area_of_circle");
 			int choice = sc.nextInt();
@@ -49,7 +52,8 @@ public class CalculatorShow {
 			ch = sc.next().charAt(0);
 
 		} while (ch == 'y' || ch == 'Y');
-		System.out.println("thank you.............");
+		System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+		System.out.println("thank you using application.............");
 
 	}
 
